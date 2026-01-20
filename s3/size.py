@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 
 # cobra
+# cobra
 
 # Get the directory where this script is located
 script_dir = Path(__file__).parent.absolute()
