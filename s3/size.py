@@ -4,6 +4,9 @@ from pathlib import Path
 import boto3
 from dotenv import load_dotenv
 
+
+# cobra
+
 # Get the directory where this script is located
 script_dir = Path(__file__).parent.absolute()
 env_path = script_dir / '.env'
