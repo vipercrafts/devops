@@ -25,7 +25,3 @@ spec:
             name: api-service
             port:
               number: 8080
-  tls:
-  - hosts:
-    - myapp.example.com
-    secretName: myapp-tls-secret
