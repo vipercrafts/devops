@@ -1,12 +1,12 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: example-ingress
+  name: example-alb
   namespace: default
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx
+  ingressClassName: alb
   rules:
   - host: myapp.example.com
     http:
@@ -14,14 +14,8 @@ spec:
       - path: /
         pathType: Prefix
         backend:
-          service:
-            name: my-service
-            port:
-              number: 80
+          
       - path: /api
         pathType: Prefix
         backend:
-          service:
-            name: api-service
-            port:
-              number: 8080
+     
