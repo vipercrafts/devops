@@ -1,0 +1,1 @@
+tailscale up --login-server=$1 --accept-routes
