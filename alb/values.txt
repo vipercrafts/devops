@@ -1,0 +1,7 @@
+MY_APP_NAME=ProductionApp
+MY_VERSION=2.0.1
+MY_ENVIRONMENT=production
+MY_DB_HOST=db.example.com
+MY_DB_PORT=5432
+MY_DB_USER=admin
+MY_SERVER_URL=https://api.example.com

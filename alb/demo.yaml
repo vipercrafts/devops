@@ -1,0 +1,12 @@
+app:
+  name: ProductionApp
+  version: 2.0.1
+  environment: production
+
+database:
+  host: db.example.com
+  port: 5432
+  username: admin
+
+server:
+  url: MY_SERVER_URL
