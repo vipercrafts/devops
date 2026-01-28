@@ -1,5 +1,7 @@
 import logging
 logging.disable(logging.CRITICAL)
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
 from docling.document_converter import DocumentConverter
 from pathlib import Path
 
@@ -23,7 +25,7 @@ def parse_document(file_path: str):
 
 
 if __name__ == "__main__":
-    file_path = r"C:\Users\RAKESH\Desktop\viperCrafts\devops\docling\html_mcqs.pdf"
+    file_path = r"C:\Users\RAKESH\Desktop\viperCrafts\devops\docling\docling.pdf"
     output = parse_document(file_path)
 
     print(output["markdown"])
