@@ -1,0 +1,13 @@
+# Format: yaml_file|key=value
+
+# Update demo.yaml file
+demo.yaml|old_image_name=new_image_name
+demo.yaml|localhost:8080=production.example.com
+
+# Update another YAML file
+config.yaml|database_host=db.production.com
+config.yaml|api_key=12345-abcde-67890
+
+# Update deployment.yaml
+deployment.yaml|replicas: 1=replicas: 3
+deployment.yaml|memory: 512Mi=memory: 2Gi
