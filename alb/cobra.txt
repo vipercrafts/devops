@@ -1,0 +1,3 @@
+name: cobra
+namespace: cobra
+alb.ingress.kubernetes.io/group.name: snakes
